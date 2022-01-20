@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+#AboutSection{
+    height: 300px;
+    background: center/cover no-repeat url("/static/ab.jpg");
+}
+#AboutSection h2{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 41px;
+}
+#AboutSection h1{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 41px;
+}
+#AboutSection h3{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    padding-top: 11px;
+    font-size: 35px;
+}
+#About{
+    height: 185px;
+    max-width: 1000px;
+    margin: 18px auto;
+}

@@ -1,0 +1,55 @@
+extends base.pug 
+
+block scripts 
+    script (src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introSection 
+        div Welcome to SHARMA DANCE ACEDEMY
+        div.small Eat Sleep Dance Repeat 
+
+    section#MissionSection
+        h2 Our Mission
+        div.card 
+            h3 Dance Academy
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.jpg")
+
+                div.card-content 
+                    p Dance Academy is an Australian producted by werner film Productions in association.
+        div.card 
+            h3 Dance Class Batch
+            div.card-box 
+                div.card-img 
+                    img(src="/static/2.jpg")
+
+                div.card-content 
+                    p Per Batch 1.30 hrs 
+                    p Time 10.00 AM to 5.00 PM
+
+
+        div.card 
+            h3 Dance Classes
+            div.card-box 
+                div.card-img 
+                    img(src="/static/3.jpg")
+
+                div.card-content 
+                    p  Hip-Hop ,Classic, zumba, salsa(couple Dance), western, break, etc.
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors  
+            img(src="/static/ms.jpg", alt="sponsors img",class="spImage")
+            img(src="/static/skype.jpg", alt="sponsors img",class="spImage")
+            img(src="/static/apple.jpg", alt="sponsors img",class="spImage")
+            img(src="/static/hp.jpg", alt="sponsors img",class="spImage")
+
+    
+    
