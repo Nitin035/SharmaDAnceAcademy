@@ -1,0 +1,15 @@
+git config --global user.name nitin
+git config --global user.email"xyz.com"
+touch .gitignore
+git init
+git add .
+git commit -m "initial commit"
+git status
+git remote add origin & "paste SSH url"
+git push origin master   (noe:- this command is fail to origin)
+go to google 
+type generating a new ssh key to copy command on google
+but additing this command "SSH-keygen -t ed25519 -c "email-id" to generate public key
+cat paste public kay
+select option to yes
+git push origin master
